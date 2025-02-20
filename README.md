@@ -22,23 +22,39 @@ Este é um aplicativo simples em Python para visualizar logs do Apache em tempo 
     cd apache-log-viewer
     ```
 
-2. Instale as dependências necessárias (se houver):
+2. Crie um ambiente virtual:
+
+    - **Windows:**
+
+        ```sh
+        python -m venv venv
+        venv\Scripts\activate
+        ```
+
+    - **Linux:**
+
+        ```sh
+        python3 -m venv venv
+        source venv/bin/activate
+        ```
+
+3. Instale as dependências necessárias (se houver):
 
     ```sh
     pip install -r requirements.txt
     ```
 
-3. Execute o aplicativo:
+4. Execute o aplicativo:
 
     ```sh
     python logview.py
     ```
 
-4. Na interface do aplicativo, clique no botão "Selecionar Log" para escolher o arquivo de log que deseja visualizar.
+5. Na interface do aplicativo, clique no botão "Selecionar Log" para escolher o arquivo de log que deseja visualizar.
 
 ## Estrutura do Projeto
 
-- [logview.py](http://_vscodecontentref_/0): Arquivo principal do aplicativo que contém a lógica para selecionar e visualizar logs do Apache.
+- [logview.py](http://_vscodecontentref_/1): Arquivo principal do aplicativo que contém a lógica para selecionar e visualizar logs do Apache.
 
 ## Contribuições
 
