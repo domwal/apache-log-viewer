@@ -18,7 +18,7 @@ Este é um aplicativo simples em Python para visualizar logs do Apache em tempo 
 1. Clone o repositório para o seu computador:
 
     ```sh
-    git clone https://github.com/seu-usuario/apache-log-viewer.git
+    git clone https://github.com/domwal/apache-log-viewer.git
     cd apache-log-viewer
     ```
 
@@ -52,9 +52,6 @@ Este é um aplicativo simples em Python para visualizar logs do Apache em tempo 
 
 5. Na interface do aplicativo, clique no botão "Selecionar Log" para escolher o arquivo de log que deseja visualizar.
 
-## Estrutura do Projeto
-
-- [logview.py](http://_vscodecontentref_/1): Arquivo principal do aplicativo que contém a lógica para selecionar e visualizar logs do Apache.
 
 ## Contribuições
 
